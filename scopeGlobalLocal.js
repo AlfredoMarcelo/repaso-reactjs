@@ -43,6 +43,8 @@ presentacion("alfredo", true);//0 js lo considera false
 
 //Arrow function
   // sirve cuando queremos llamar propiedades de un scope local
+  // las arrow function no cambian el valor de this, lo heredan o toman de afuera
+  // se usa cuando no queremos que el contexto en el cuerpo de la funcion cambie
 
 let obj = {
   numeros: [1,2,3],
